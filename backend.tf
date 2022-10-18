@@ -8,7 +8,7 @@ terraform {
     hostname = "app.terraform.io"
     
     workspaces {
-      name = "temenos_cloud"
+      name = "temenos_cloud_poc"
     }
   }
 }
