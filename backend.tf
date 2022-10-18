@@ -9,6 +9,10 @@ terraform {
     
     workspaces {
       name = "temenos_cloud_poc"
+      tags = [
+        "development",
+        "azure"
+      ]
     }
   }
 }
