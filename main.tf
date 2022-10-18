@@ -16,4 +16,8 @@
 resource "azurerm_resource_group" "example" {
   name     = "terraformed-rg"
   location = "Australia East"
+  tags = {
+    environment = "development"
+    costcentre = "devex"
+  }
 }
